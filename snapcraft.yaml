@@ -5,6 +5,9 @@ platforms:
   amd64:
     build-on: [amd64]
     build-for: [amd64]
+  arm64:
+    build-on: [arm64]
+    build-for: [arm64]
 summary: Bluetooth device manager
 description: |
   Bluejay is a Bluetooth manager and Bluez front-end. With it, you can pair devices, connect to and remove devices, turn Bluetooth on and off, and more. This project is powered by the Qt6 graphical toolkit and KDE Frameworks.
